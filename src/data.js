@@ -1,23 +1,22 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
-  FiMapPin,
-  CgWebsite
+  FiFacebook,
+ 
+  
 } from 'react-icons/fi';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  FaStore,
+  FaMobileAlt,
+  FaStar,
+  FaPaintBrush,
+  FaWhatsapp
+} from 'react-icons/fa'
+import {CgWebsite} from 'react-icons/cg'
+import {IoRocketSharp} from 'react-icons/io5'
 
-import { faDesktop } from '@fortawesome/free-solid-svg-icons';
-
-import Sitelogo from './assets/img/services/logosite.png';
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -29,8 +28,8 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 // projects images
 import Project1 from './assets/img/projects/variedades2.png';
 import Project2 from './assets/img/projects/moda.jpg';
-import Project3 from './assets/img/projects/playtime.png';
-import Project4 from './assets/img/projects/p5.webp';
+import Project3 from './assets/img/projects/inovare.png';
+import Project4 from './assets/img/projects/playtime.png';
 import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
 
@@ -41,8 +40,9 @@ import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg9 from './assets/img/skills/php4.png';
 import SkillImg5 from './assets/img/skills/word2.png';
+import SkillImg8 from './assets/img/skills/elementor2.png';
 import SkillImg6 from './assets/img/skills/shopify.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -66,26 +66,27 @@ export const navigation = [
   },
   {
     name: 'contato',
-    href: 'contact',
+    href: 'contato',
   },
 ];
 
 // social
 export const social = [
-  {
-    icon: <FiYoutube />,
-    href: '',
-  },
+ 
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/alvestechsistemas/', target:'_blank',
   },
   {
     icon: <FiGithub />,
     href: '',
   },
   {
-    icon: <FiDribbble />,
+    icon: <FaWhatsapp />,
+    href: 'https://api.whatsapp.com/send?phone=5588996147655&text=Oi+gostaria+de+mais+informacoes',
+  },
+  {
+    icon: <FiFacebook />,
     href: '',
   },
 ];
@@ -131,14 +132,14 @@ export const projectsData = [
   {
     id: '3',
     image: Project3,
-    name: 'Playtime',
-    category: 'loja virtual',
+    name: 'Inovare Odontologia',
+    category: 'site institucional',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Playtime',
+    category: 'loja virtual',
   },
   {
     id: '5',
@@ -166,7 +167,7 @@ export const projectsNav = [
     name: 'landing page',
   },
   {
-    name: 'branding',
+    name: 'site institucional',
   },
 ];
 
@@ -189,11 +190,9 @@ export const skills = [
     image: SkillImg5,
   },
   {
-    image: SkillImg6,
-  },
-  {
     image: SkillImg8,
   },
+  
   
   
 ];
@@ -201,38 +200,38 @@ export const skills = [
 // services
 export const serviços = [
   {
-    icon: <faDesktop/>,
-    name: 'Criação de sites',
+    icon: <CgWebsite/>,
+    name: 'Criação de Sites',
     description:
       'Criação de sites profissionais,otimizados e gerenciáveis, ideal para divulgar sua empresa ou serviço ',
   },
   {
-    icon: <FiSettings />,
-    name: 'Criação de lojas',
+    icon: <FaStore/>,
+    name: 'Criação de Lojas',
     description:
     'Lojas virtuais completas prontas para  você começar a vender seus produtos pela internet de forma simples e rápida'
   },
   {
-    icon: <FiPenTool />,
-    name: 'Manutenção e otimização',
+    icon: <IoRocketSharp />,
+    name: 'Manutenção e Otimização',
     description:
       'Sites rápidos e otimizados garantem mais cliques e conversões no site e são melhores posicionados pelo google',
   },
   {
-    icon: <FiTag />,
-    name: 'Sites responsivos',
+    icon: <FaMobileAlt />,
+    name: 'Sites Responsivos',
     description:
       'Usamos as melhores tecnologias para que seu site seja acessível por todos os dispositivos',
   },
   {
-    icon: <FiTag />,
-    name: 'Tecnologias de ponta',
+    icon: <FaStar />,
+    name: 'Tecnologias de Ponta',
     description:
       'Trabalhamos com as melhores opções para o desenvolvimento web, soluções altamente usadas e testadas em todo mundo',
   },
   {
-    icon: <FiTag />,
-    name: 'Personalização e design',
+    icon: <FaPaintBrush/>,
+    name: 'Personalização e Design',
     description:
       'Desenvolvemos seu site de acordo com seu publico alvo, criamos sua logo, banners e identidade visual',
   },
@@ -265,17 +264,22 @@ export const testimonials = [
 ];
 
 // contact
-export const contact = [
+export const contato = [
+  
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    subtitle: 'alvestech@gmail.com',
+    
   },
   {
-    icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    icon: <FaWhatsapp />,
+    subtitle: '(88) 996147655',
+    
   },
+  {
+    icon: <FiInstagram />,
+    subtitle: '@alvestechsistemas',
+    
+  },
+ 
 ];
