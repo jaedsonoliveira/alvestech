@@ -28,9 +28,9 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 // projects images
 import Project1 from './assets/img/projects/variedades2.png';
 import Project2 from './assets/img/projects/moda.jpg';
-import Project3 from './assets/img/projects/inovare.png';
+import Project3 from './assets/img/projects/inovare2.png';
 import Project4 from './assets/img/projects/playtime.png';
-import Project5 from './assets/img/projects/p5.webp';
+import Project5 from './assets/img/projects/land.png';
 import Project6 from './assets/img/projects/p6.webp';
 
 // skills images
@@ -129,6 +129,13 @@ export const projectsData = [
     name: 'Moda Tendência',
     category: 'loja virtual',
   },
+  
+  {
+    id: '4',
+    image: Project4,
+    name: 'Playtime',
+    category: 'loja virtual',
+  },
   {
     id: '3',
     image: Project3,
@@ -136,11 +143,12 @@ export const projectsData = [
     category: 'site institucional',
   },
   {
-    id: '4',
-    image: Project4,
-    name: 'Playtime',
-    category: 'loja virtual',
+    id: '5',
+    image: Project5,
+    name: 'Zoom Nike',
+    category: 'landing page',
   },
+  
   
   
 ];
