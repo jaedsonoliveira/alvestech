@@ -21,7 +21,7 @@ const Services = () => {
                   {icon}
                 </div>
                 <h4 className='text-xl font-bold text-center mb-2'>{name}</h4>
-                <p className=''>{description}</p>
+                <p className='text-center'>{description}</p>
               </div>
             );
           })}

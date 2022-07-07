@@ -1,7 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+import styled from "styled-components";
 
 // import woman image
 import WomanImg from '../assets/img/bg1.png';
+
 
 const Hero = () => {
   return (
@@ -20,9 +23,12 @@ const Hero = () => {
             Ajudamos nossos clientes a transformar e potencializar seu negócio oferecendo serviços de alta qualidade, com ótimos resultados
 e custos acessíveis
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-md rounded-md transition-all'>
+            
+           
+            <button as={Link} to ='/Contato' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-md rounded-md transition-all'>
               Entre em contato
             </button>
+          
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
             <img src={WomanImg} alt='' />

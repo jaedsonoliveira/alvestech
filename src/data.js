@@ -141,18 +141,8 @@ export const projectsData = [
     name: 'Playtime',
     category: 'loja virtual',
   },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+  
+  
 ];
 
 // projects
