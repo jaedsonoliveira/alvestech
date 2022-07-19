@@ -31,7 +31,10 @@ import Project2 from './assets/img/projects/moda.jpg';
 import Project3 from './assets/img/projects/inovare2.png';
 import Project4 from './assets/img/projects/playtime.png';
 import Project5 from './assets/img/projects/land.png';
-import Project6 from './assets/img/projects/p6.webp';
+import Project6 from './assets/img/projects/smart.png';
+import Project7 from './assets/img/projects/land1.png';
+import Project8 from './assets/img/projects/land3.png';
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -137,9 +140,9 @@ export const projectsData = [
     category: 'loja virtual',
   },
   {
-    id: '3',
-    image: Project3,
-    name: 'Inovare Odontologia',
+    id: '6',
+    image: Project6,
+    name: 'Smart Course',
     category: 'site institucional',
   },
   {
@@ -148,8 +151,26 @@ export const projectsData = [
     name: 'Zoom Nike',
     category: 'landing page',
   },
-  
-  
+ 
+ 
+  {
+    id: '8',
+    image: Project8,
+    name: 'Ebook Land',
+    category: 'landing page',
+  },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Inovare Odontologia',
+    category: 'site institucional',
+  },
+  {
+    id: '7',
+    image: Project7,
+    name: 'Marketing Venda',
+    category: 'landing page',
+  },
   
 ];
 
