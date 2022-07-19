@@ -24,11 +24,11 @@ const Hero = () => {
 e custos acessíveis
             </p>
             
-           
-            <button as={Link} to ='/Contato' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-md rounded-md transition-all'>
+           <a href="https://api.whatsapp.com/send?phone=5588996147655&text=Oi+gostaria+de+mais+informacoes" target="_blank" rel="noreferrer">
+            <button  className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-md rounded-md transition-all'>
               Entre em contato
             </button>
-          
+          </a>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
             <img src={WomanImg} alt='' />

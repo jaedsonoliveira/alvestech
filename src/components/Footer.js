@@ -25,7 +25,7 @@ const Footer = () => {
             <img src={Logo} alt='' />
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Alves Tech. All rights reserved.
+            &copy; 2022 Alves Tech. Todos os direitos reservados.
           </p>
         </div>
       </div>
