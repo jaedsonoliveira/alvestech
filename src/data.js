@@ -34,6 +34,9 @@ import Project5 from './assets/img/projects/land.png';
 import Project6 from './assets/img/projects/smart.png';
 import Project7 from './assets/img/projects/land1.png';
 import Project8 from './assets/img/projects/land3.png';
+import Project9 from './assets/img/projects/alvares.png';
+import Project10 from './assets/img/projects/car.png';
+
 
 
 // skills images
@@ -160,11 +163,12 @@ export const projectsData = [
     category: 'landing page',
   },
   {
-    id: '3',
-    image: Project3,
-    name: 'Inovare Odontologia',
+    id: '9',
+    image: Project9,
+    name: 'Alvares Advocacia',
     category: 'site institucional',
   },
+ 
   {
     id: '7',
     image: Project7,
@@ -172,6 +176,18 @@ export const projectsData = [
     category: 'landing page',
   },
   
+  {
+    id: '10',
+    image: Project10,
+    name: 'Cardapio Digital',
+    category: 'site institucional',
+  },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Inovare Odontologia',
+    category: 'site institucional',
+  },
 ];
 
 // projects
