@@ -30,7 +30,7 @@ import Project1 from './assets/img/projects/variedades2.png';
 import Project2 from './assets/img/projects/moda.jpg';
 import Project3 from './assets/img/projects/inovare2.png';
 import Project4 from './assets/img/projects/playtime.png';
-import Project5 from './assets/img/projects/land.png';
+import Project5 from './assets/img/projects/lanca.png';
 import Project6 from './assets/img/projects/smart.png';
 import Project7 from './assets/img/projects/land1.png';
 import Project8 from './assets/img/projects/land3.png';
@@ -155,13 +155,13 @@ export const projectsData = [
     category: 'landing page',
   },
  
- 
   {
-    id: '8',
-    image: Project8,
-    name: 'Ebook Land',
+    id: '7',
+    image: Project7,
+    name: 'Marketing Venda',
     category: 'landing page',
   },
+  
   {
     id: '9',
     image: Project9,
@@ -170,9 +170,9 @@ export const projectsData = [
   },
  
   {
-    id: '7',
-    image: Project7,
-    name: 'Marketing Venda',
+    id: '8',
+    image: Project8,
+    name: 'Ebook Land',
     category: 'landing page',
   },
   
