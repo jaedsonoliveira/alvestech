@@ -151,7 +151,7 @@ export const projectsData = [
   {
     id: '5',
     image: Project5,
-    name: 'Zoom Nike',
+    name: 'Lançamento Digital',
     category: 'landing page',
   },
  
