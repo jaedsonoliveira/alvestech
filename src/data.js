@@ -36,8 +36,8 @@ import Project7 from './assets/img/projects/land1.png';
 import Project8 from './assets/img/projects/land3.png';
 import Project9 from './assets/img/projects/alvares.png';
 import Project10 from './assets/img/projects/car.png';
-
-
+import Project11 from './assets/img/projects/stedile.png';
+import Project12 from './assets/img/projects/technise.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -89,7 +89,7 @@ export const social = [
   },
   {
     icon: <FaWhatsapp />,
-    href: 'https://api.whatsapp.com/send?phone=5588996147655&text=Oi+gostaria+de+mais+informacoes',
+    href: 'https://wa.me/message/3W6BZ3ZBMBIYO1',
   },
   {
     icon: <FiFacebook />,
@@ -143,6 +143,24 @@ export const projectsData = [
     category: 'loja virtual',
   },
   {
+    id: '9',
+    image: Project9,
+    name: 'Alvares Advocacia',
+    category: 'site institucional',
+  },
+  {
+    id: '12',
+    image: Project12,
+    name: 'Technise - Casas Inteligentes',
+    category: 'site institucional',
+  },
+  {
+    id: '11',
+    image: Project11,
+    name: 'Stedile Advocacia',
+    category: 'site institucional',
+  },
+  {
     id: '6',
     image: Project6,
     name: 'Smart Course',
@@ -162,12 +180,7 @@ export const projectsData = [
     category: 'landing page',
   },
   
-  {
-    id: '9',
-    image: Project9,
-    name: 'Alvares Advocacia',
-    category: 'site institucional',
-  },
+ 
  
   {
     id: '8',
@@ -177,17 +190,13 @@ export const projectsData = [
   },
   
   {
-    id: '10',
-    image: Project10,
-    name: 'Cardapio Digital',
-    category: 'site institucional',
-  },
-  {
     id: '3',
     image: Project3,
     name: 'Inovare Odontologia',
     category: 'site institucional',
   },
+ 
+  
 ];
 
 // projects
@@ -308,7 +317,7 @@ export const contato = [
   },
   {
     icon: <FaWhatsapp />,
-    subtitle: '(88) 996147655',
+    subtitle: '(88) 9900-6101',
     
   },
   {
