@@ -24,7 +24,7 @@ const Hero = () => {
 e custos acessíveis
             </p>
             
-           <a href="https://api.whatsapp.com/send?phone=5588996147655&text=Oi+gostaria+de+mais+informacoes" target="_blank" rel="noreferrer">
+           <a href="https://wa.me/message/3W6BZ3ZBMBIYO1" target="_blank" rel="noreferrer">
             <button  className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-md rounded-md transition-all'>
               Entre em contato
             </button>
