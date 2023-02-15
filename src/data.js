@@ -38,6 +38,8 @@ import Project9 from './assets/img/projects/alvares.png';
 import Project10 from './assets/img/projects/car.png';
 import Project11 from './assets/img/projects/stedile.png';
 import Project12 from './assets/img/projects/technise.png';
+import Project13 from './assets/img/projects/landing-curso.png';
+import Project14 from './assets/img/projects/sales.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -143,11 +145,12 @@ export const projectsData = [
     category: 'loja virtual',
   },
   {
-    id: '9',
-    image: Project9,
-    name: 'Alvares Advocacia',
+    id: '3',
+    image: Project13,
+    name: 'Fotografia Essencial',
     category: 'site institucional',
   },
+  
   {
     id: '12',
     image: Project12,
@@ -173,12 +176,7 @@ export const projectsData = [
     category: 'landing page',
   },
  
-  {
-    id: '7',
-    image: Project7,
-    name: 'Marketing Venda',
-    category: 'landing page',
-  },
+  
   
  
  
@@ -195,7 +193,19 @@ export const projectsData = [
     name: 'Inovare Odontologia',
     category: 'site institucional',
   },
- 
+  {
+    id: '9',
+    image: Project9,
+    name: 'Alvares Advocacia',
+    category: 'site institucional',
+  },
+  
+  {
+    id: '3',
+    image: Project14,
+    name: 'Inovare Odontologia',
+    category: 'site institucional',
+  },
   
 ];
 
