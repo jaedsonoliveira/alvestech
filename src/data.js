@@ -148,7 +148,7 @@ export const projectsData = [
     id: '3',
     image: Project13,
     name: 'Fotografia Essencial',
-    category: 'site institucional',
+    category: 'landing page',
   },
   
   {
@@ -170,7 +170,7 @@ export const projectsData = [
     category: 'site institucional',
   },
   {
-    id: '5',
+    id: '10',
     image: Project5,
     name: 'Lançamento Digital',
     category: 'landing page',
@@ -201,10 +201,10 @@ export const projectsData = [
   },
   
   {
-    id: '3',
+    id: '14',
     image: Project14,
-    name: 'Inovare Odontologia',
-    category: 'site institucional',
+    name: 'Marketing Impulso',
+    category: 'landing page',
   },
   
 ];
